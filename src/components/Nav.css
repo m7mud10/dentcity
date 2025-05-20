@@ -1,0 +1,109 @@
+nav {
+    background-color: #fff;
+    width: 100% !important;
+    height: auto;
+    border-radius: 0px !important;
+   
+}
+nav .navbar-nav{
+    margin-top: 12px;
+    margin-left: 50px !important;
+  
+}
+nav .navbar-nav a {
+    color: var(--grey-color);
+    font-size : 20px;
+    margin-right: 10px;
+    float: left;
+    font-weight: 100px;
+    transition: 0.1s ease all;
+    
+
+}
+nav .navbar-nav a:hover, nav .navbar-nav a:focus{
+    color: rgb(179, 113, 124) !important ;
+}
+#dentist1 {
+    float: left;
+
+
+}
+#text {
+    float: left;
+}
+#btn1 {
+    margin-left:150px !important ;
+}
+nav .navbar-nav button{
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    width: 200px;
+    height: 200;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -10px ;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .navbar-nav button:hover{
+    background-color: rgb(216, 147, 62);
+    transition: 0.1s ease-in-out;
+}
+nav .navbar-nav button span{
+    background-color: #fff;
+    color: var(--btn-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 0px;
+    width: 200px;
+}
+.navbar-nav .dropdown-menu li{
+    width: 100%;
+    height: 30px !important;
+    position: relative;
+
+}
+
+.navbar-nav .dropdown-menu a{
+   color: #444;
+   font-size: 14px;
+   line-height: 30px !important;
+   position: relative;
+   
+}
+.navbar-nav .dropdown-menu a:hover{
+    color: var(--btn-color) !important;
+}
+@media only screen and (max-width : 992px) {
+    nav .navbar-nav .dropdown-menu{
+        width: 100% !important;
+    }
+        nav .navbar-nav button {
+            margin-bottom: 0px;
+        }
+}
+#search{
+    margin-left: 10px !important;
+
+}
+nav .navbar-nav svg:last-child{
+    text-align: center;
+
+}
+.home{
+    margin-top: 8px;
+}
+.cont{
+    margin-top: 8px;
+}

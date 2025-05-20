@@ -1,0 +1,23 @@
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 25px 0px;
+    margin-top: 0px;
+    background-color: #c280a9;
+    background-image: linear-gradient(90deg, rgba(120, 74, 82, 1) 10%, rgba(179, 113, 124, 1) 50%, rgb(120, 74, 82) 100%);
+}
+.banner h2{
+    color: black;
+    font-size: 80px;
+    margin: 20px 0px;
+    font-weight: bold;
+    line-height: 120px;
+}
+.banner li {
+    
+}
+.link {
+    color: black;
+}

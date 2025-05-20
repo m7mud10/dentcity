@@ -1,0 +1,99 @@
+header {
+    margin-top: 0px;
+    background-color: #e0cdc0;
+}
+header .row {
+    margin: 50px 0px;
+}
+header .row h2 {
+    color: black;
+    font-size:50px ;
+    margin: 10px 0px ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+header img {
+    max-width: 900px;
+    width: 600px;
+    height: auto;
+    border-radius: 50px;
+    animation: movers  1s infinite  alternate;
+    -o-animation: movers 1s infinite alternate ;
+    -moz-animation: movers 1s infinite alternate;
+    -webkit-animation: movers 1s infinite alternate;
+
+    transition: 0.3s ease all ;
+}
+header button{
+    background-color: var(--main-color);
+    width: 200px;
+    height: 50px ;
+    border: 1px solid var(--main-color);
+    border-radius: 4px !important;
+    margin-top:20px ;
+}
+header button a {
+    color: #fff;
+    font-size: 17px ;
+    transition: 0.2s ease;
+
+}
+header button:hover{
+    opacity: 0.8;
+}
+@keyframes movers {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@-moz-keyframes movers {
+    0% {
+            transform: translateY(-10px);
+        }
+    
+        100% {
+            transform: translateY(0px);
+        }
+}
+@-o-keyframes movers {
+    0% {
+            transform: translateY(-10px);
+        }
+    
+        100% {
+            transform: translateY(0px);
+        }
+}
+@-webkit-keyframes movers{
+    0% {
+            transform: translateY(-10px);
+        }
+    
+        100% {
+            transform: translateY(0px);
+        }
+}
+.animate-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.animate-fade-in.delay-1 {
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    } }
